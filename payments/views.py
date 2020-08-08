@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 import razorpay
-client = razorpay.Client(auth=("rzp_test_cOPqeQU2XYK7Xr", "5R2Yk2b5pqQFWfDPFYckvZoz"))
+client = razorpay.Client(auth=("", ""))
 
 def testing(request):
     return render(request, 'order.html', {})
